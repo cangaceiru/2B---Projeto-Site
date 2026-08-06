@@ -1,0 +1,19 @@
+body{
+    background-color: #f2f2f2;
+    color: blue;
+}
+header{
+    display:flex;
+    width:1200px;
+    margin:0 auto;
+    background:yellow;
+    flex-direction:row;
+}
+nav ul{
+    display:flex ;
+    flex-direction:row;
+    list-style:none;
+}
+nav ul li{
+    padding:0 10px;
+}
