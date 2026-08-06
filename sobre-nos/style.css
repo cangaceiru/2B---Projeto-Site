@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(255, 238, 144);
+    color:rgb(206, 0, 86);
+}
+
+header{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    background: aqua;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 10px;
+}
