@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 body {
-    background-color: #f2f2f2;
     color: blue;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
 header{
+    background-color: #f2f2f2;
+    padding: 10px 0;
     display: flex;
     width: 1200px;
     margin:0 auto;
     flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 nav ul{
     display: flex;
     flex-direction: row;
@@ -15,4 +21,11 @@ nav ul{
 }
 nav ul li {
     padding: 10px;
+}
+nav ul li a{
+   text-decoration: none;
+   color:#00354d;
+}
+nav ul li a:hover {
+    color:#3ba9b2;
 }
